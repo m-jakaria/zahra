@@ -1,0 +1,64 @@
+[
+    { "msgs": ["Halloo"], "msgInputSpeed": 80 },
+    { "msgs": ["Ini Zahra kan?"], "msgInputSpeed": 80 },
+    {
+        "msgs": ["Cuma mau bilang kalo aku sayan.....", "eh..eh bukan ini bukan aa jaka ganteng, ini burokkkk "],
+        "msgInputSpeed": 80
+    },
+    { "msgs": ["Cuma mau menyampaikan tadi aa jaka ganteng bilang sama aku pas dijalan lenteng agung..."], "msgInputSpeed": 50 },
+
+    {
+        "msgs": ["Katanya dia sayang banget tu sama kamu"],
+        "msgInputSpeed": 80
+    },
+    {
+        "msgs": ["<span style=\"color: red;\">Tapi memang dia orang nya agak laen</span> tapiii bentar"],
+        "msgInputSpeed": 80
+    },
+    {
+        "msgs": [
+            "kamu beneran Zahra kann ?"
+        ],
+        "msgInputSpeed": 80,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": [""],
+                "rejectKeyTexts": [],
+                "rejectHitTexts": ["Yang bener nih？", "jangan bohongggg"]
+            }
+        }
+    },
+    { "msgs": ["Masih ngga percaya sih, kamu bener kan yang cantik ini ????"], "msgInputSpeed": 80 },
+    { "msgs": ["<img src='options/demo/imgs/test.jpg'/>"] ,
+    "msgInputSpeed": 80,
+    "triggerNextAction": {
+        "type": "userInput",
+        "options": {
+            "resolveKeyTexts": [""],
+            "rejectKeyTexts": [],
+            "rejectHitTexts": ["Yang bener ih？", "jangan bohongggg"]
+        }
+    }},
+
+    { "msgs": ["hmmmmm......"], "msgInputSpeed": 80 },
+    { "msgs": ["Tadi aa ganteng nitipin ini sih, katanya buat kamu, liat yaaa"], "msgInputSpeed": 80 },
+    {
+        "msgs": ["<vlog src='options/production/vlogs/test.mp4'/>"],
+        "triggerNextAction": { "type": "componentClose" }
+    },
+    { "msgs": ["takut lupa, ada satu lagi nih"], "msgInputSpeed": 80 },
+    { "msgs": ["memang alay kali aa ganteng ini, yaa namanya juga anak tua wkwk..."], "msgInputSpeed": 80 },
+    {
+        "msgs": ["<letter src='options/demo/letters/test.json'/>"],
+        "triggerNextAction": { "type": "componentClose" }
+    },
+    { "msgs": ["Aku ngga liat kok tenang aja... jadi ngga tau aa ganteng kirim apa"], "msgInputSpeed": 80 },
+    {
+        "msgs": ["yang jelas aku tau itu pasti alay, ahahah dasar anak tua"]
+    },
+    {
+        "msgs": ["Yaa udah aku pamit yaa, BYE BYE"],
+        "msgInputSpeed": 80
+    }
+]
